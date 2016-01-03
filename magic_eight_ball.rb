@@ -1,6 +1,8 @@
 
-# add happy mode easter egg
-# add ruby gems for color ?
+# Easter Eggs: Type 'add_answers' to add adition awswers. Type 'print_answers' to see all answers. 
+
+# TODO: add happy mode easter egg
+# TODO: add ruby gems for color ?
 
 @answers = ['It is certain', 'It is decidedly so', 'Without a doubt',
           'Yes, definitely', 'ou may rely on it', 'As I see it, yes',
@@ -43,7 +45,7 @@ end
 def add_answers(number_to_add)
     @num = 0
     while @num < number_to_add
-      puts "Enter the question:"
+      puts "Enter an answer:"
       @answers << gets
       @num +=1
     end
